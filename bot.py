@@ -8,7 +8,7 @@ api_id = int(os.environ.get('API_ID'))
 api_hash = os.environ.get('API_Hash')
 string = os.environ.get('session_string')
 from_id = list(os.environ.get('from_ids'))
-to_id = os.environ.get('to_id')
+to_id = int(os.environ.get('to_id'))
 caption = os.environ.get('every_post_caption')
 
 client = TelegramClient(StringSession(string), api_id, api_hash)

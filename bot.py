@@ -7,7 +7,7 @@ import os
 api_id = int(os.environ.get('API_ID'))
 api_hash = os.environ.get('API_Hash')
 string = os.environ.get('session_string')
-from_id = list(os.environ.get('from_ids'))
+from_id = os.environ.get('from_ids')
 to_id = int(os.environ.get('to_id'))
 caption = os.environ.get('every_post_caption')
 

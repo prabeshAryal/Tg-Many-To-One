@@ -44,8 +44,8 @@ This bot is make specifically for one purpose. That is to monitor many Telegram 
 > - This is your Channel ID (including `-` sign.)
 
 ### **Public Channels/Person/Groups**
-- Send a Message `/info @ChannelName` to [RoseBot](https://t.me/MissRose_bot) and copy link of that Telegram Channel Post.
-> _Note_ : For pivate chats with no username, mention the person in group or send `/info` command from that respective account to [RoseBot](https://t.me/MissRose_bot) .
+- Send a Message `/info @ChannelName` to [GroupHelpBot](https://t.me/GroupHelpBot) and copy link of that Telegram Channel Post.
+> _Note_ : For pivate chats with no username, mention the person in group or send `/info` command from that respective account to [GroupHelpBot](https://t.me/GroupHelpBot) .
  
 ## Other Variables <a name="2.3"></a>
 There are some other variables which you need to note about.

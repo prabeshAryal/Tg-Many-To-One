@@ -2,12 +2,13 @@ from telethon import TelegramClient, events
 import re
 from telethon.sessions import StringSession
 import os
+import json
 
 #Environment Variables
 api_id = int(os.environ.get('API_ID'))
 api_hash = os.environ.get('API_Hash')
 string = os.environ.get('session_string')
-from_id = os.environ.get('from_ids')
+from_id = (lambda: json.loads("["+os.environ.get('from_ids')+"]"))()
 to_id = int(os.environ.get('to_id'))
 caption = os.environ.get('every_post_caption')
 

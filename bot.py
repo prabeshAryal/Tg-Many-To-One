@@ -21,10 +21,13 @@ async def main(event):
     msg = event.message
     msg = event.message
     msg.raw_text = re.sub("📆 ","", msg.raw_text)
+    #Removing uncessary mentions, hashtags, date, time and specific words
     msg.raw_text = re.sub(r'\d{4}\/\d{2}\/\d{2}|(?:[01]\d|2[0-3]):(?:[0-5]\d):(?:[0-5]\d)|UTC|@[A-Za-z0-9_]+|\#[A-Za-z0-9_]+|\#️⃣|▫️$| :\n|\n\.\n|\.\n\.|follow|via|credit|Follow|Via| - |',"",msg.raw_text)
+    #removing Links
+    msg.raw_text = re.sub(r'(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)',"", msg.raw_text)
     msg.raw_text = re.sub(r'📃',"", msg.raw_text)
 
-    msg.raw_text = msg.raw_text + "\n" + caption
+    msg.raw_text = msg.raw_text + "\n" +"\n" + caption
     await client.send_message(to_id, msg)
 
 with client:

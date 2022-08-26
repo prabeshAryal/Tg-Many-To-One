@@ -3,6 +3,7 @@
 A userbot to scrap your Favourite Telegram chats, groups or channels to your single specific Telegram Chat(Channel/Group also).
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/prabesharyal/Tg-Many-To-One/tree/main/)
+[![Develop on Okteto](https://okteto.com/develop-okteto.svg)](https://cloud.okteto.com/deploy?repository=https://github.com/prabesharyal/Tg-Many-To-One/)
 
 # Table of Contents
  1. [Introduction](#1)
@@ -104,6 +105,10 @@ with TelegramClient(StringSession(), api_id, api_hash) as client:
 ## Deploying to HEROKU :
 Press the button below or at the top of this readme and insert necessary [environment variables](#environ) and you're done.
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/prabesharyal/Tg-Many-To-One/tree/main/)
+
+##Develop on Okteto:
+Press the button below or at the top of this readme and insert necessary [environment variables](#environ) and you're done.
+[![Develop on Okteto](https://okteto.com/develop-okteto.svg)](https://cloud.okteto.com/deploy?repository=https://github.com/prabesharyal/Tg-Many-To-One/)
 
 # License <a name="lic"></a>
 > Distributed Under GPL or MIT License by [@PrabeshAryalNP](https://t.me/prabesharyalnp) on [social](https://twitter.com/prabesharyalnp) or [@PrabeshAryal](https://github.com/prabesharyal) on code sites.

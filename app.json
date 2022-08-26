@@ -16,31 +16,30 @@
     ],
     "env":{
     "from_ids": {
-        "description": "Enter Chat ID's of your Telegram Channels of which you want to monitor posts. Separate multiple values with comma ',' ."
+        "description": "Enter Chat ID's of your Telegram Channels of which you want to monitor posts. Separate multiple values with comma ',' .",
+        "value": ""
     },
     "to_id": {
-        "description": "Enter a Chat ID of where you'll get all posts/messages."
+        "description": "Enter a Chat ID of where you'll get all posts/messages.",
+        "value": ""
     },
     "API_ID": {
-        "description": "Get from https://my.telegram.org"
+        "description": "Get from https://my.telegram.org",
+        "value": ""
     },
     "API_Hash": {
-        "description": "Get from https://my.telegram.org"
+        "description": "Get from https://my.telegram.org",
+        "value": ""
     },
     "session_string": {
-        "description": "Use this method in repo to get this. "
+        "description": "Use this method in repo to get this. ",
+        "value": ""
     },
     "every_post_caption" : {
-    "description": "Enter a Caption for every posts you sent to Telegram in image. Can be your channel username or some emoji."
+    "description": "Enter a Caption for every posts you sent to Telegram in image. Can be your channel username or some emoji.",
+    "value": "",
+    "required": false
 }
-    },
-
-    "buildpacks": [
-        {
-            "url":"https://github.com/heroku/heroku-buildpack-python.git"
-        }
-    ]
-
-
+    }
 
 }

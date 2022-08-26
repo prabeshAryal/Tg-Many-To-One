@@ -1,0 +1,11 @@
+version: "3.9"
+services:
+  worker: python3 bot.py
+    build: .
+    environment: 
+      from_ids: $from_ids
+      to_id : $to_id
+      API_ID : $API_ID
+      API_Hash : API_Hash
+      session_string: $session_string
+      every_post_caption: $every_post_caption
